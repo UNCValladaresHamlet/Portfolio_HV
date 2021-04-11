@@ -40,6 +40,8 @@ body{
     flex-direction:column;
     justify-content: space-between;
     border-left: white solid 4px;
+    padding: 20px 20px 0 50px;
+    
 }
 
 .sidebar {
