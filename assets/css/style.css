@@ -9,24 +9,23 @@ body{
     background: rgb(0,212,255);
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(4,36,42,1) 85%);
 }
+
 .main-header{
     padding: 20px;
-        background:#1a1a33;
+    background:#1a1a33;
 }
 
 #name-box{
     display: inline-block;
     font-size: 50px;
     color:lightblue;
-    background-color:teal;
-}
+    }
 .header-nav { 
     font-size: 20px;
     padding-top: 25px;
     margin-right: 20px;
     float: right;
     font-family:Arial, Helvetica, sans-serif;
-   
 }
 
 .header-nav ul a{
@@ -34,48 +33,51 @@ body{
     padding: 25px;
     text-decoration:underline;
     color:white;
-   }
-
-figure img {
-    height: 150px;
-    width: 150px;
-    background-color: #f0ead6;
 }
-
-.sidebar{
-    display:flex;
-    flex-direction: column;
-    color:white;
-    text-decoration:solid;
-    padding: 40px 70px;
-}
-
-.main-content{
-    display:flex;
-    flex-direction: column;
-    color:white;
-    text-decoration:line-through;
-    text-align:right;
-    padding: 10px;
+.sidebar {
+    padding: 20px 20px 0 50px;
     
 }
 
-#contact-info ul {
+.sidebar h2{
+    font-weight: bolder;
+    font-size: 2em;
+    justify-content: space-evenly;
+    color:whitesmoke;
+}
+
+.main-content {
+    display: flex;
+    float:center;
+    
+}
+
+.main-content p{
+    text-align:right;
+    border-left: white solid 4px;
+    padding: 20px;
+}
+
+#contact-info {
+    border-left: white solid 4px;
+    padding: 20px;
+}
+
+#contact-info ul{
     display:flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    font-size: 20px;
-      
+    align-content: center;  
+
 }
 
 .header-nav a:hover{
     color:lightblue;
     background-color: white;
+    border-radius: 25px 100px;
 }
 
 #contact-info a:hover{
-    color:yellowgreen;
-}
+    color:lightblue;
+    }
 /* a:visited{color:red; */
 /* } */
 
