@@ -41,40 +41,44 @@ body{
     justify-content: space-between;
     border-left: white solid 4px;
     padding: 20px 20px 0 50px;
-    
-}
+    }
 
-.sidebar {
+.sidebar  {
     padding: 20px 20px 0 50px;
-    
+    width: 30%; 
 }
 
 .sidebar h2{
     font-weight: bolder;
     font-size: 2em;
-    justify-content: space-evenly;
     color:whitesmoke;
+    text-align: right;
 }
 
 .main-content {
     display: flex;
-    
+    margin: 20px 0;
+        
 }
 
 .main-content p{
     text-align:right;
-    border-left: white solid 4px;
     padding: 20px;
+    background-color:teal;
+}
+
+.right-side {
+    width: 70%;
 }
 
 #contact-info {
-    border-left: white solid 4px;
     padding: 20px;
 }
 
 #contact-info ul{
     display:flex;
-    align-content: center;  
+    flex-direction:row;
+    justify-content:space-evenly;
 
 }
 
@@ -90,6 +94,8 @@ body{
 /* a:visited{color:red; */
 /* } */
 
-@media screen and (max-width: 600px) {
-    display:inline-block
-    }
+@media screen and (max-width: 700px) {
+    body {
+        background: none;
+    }    
+}
